@@ -8,20 +8,29 @@
   </head>
   <body>
     <h1>Sign in form</h1>
-    <button>click me</button>
 
     <form action="/login">
       <p>
         <label for="email">Email: </label>
-        <input type="text" id="email" placeholder="Enter your email" />
+        <input
+          name="email"
+          type="text"
+          id="email"
+          placeholder="Enter your email"
+        />
       </p>
 
       <p>
         <label for="password">Password: </label>
-        <input type="password" id="password" placeholder="Enter a password" />
+        <input
+          name="pass"
+          type="password"
+          id="password"
+          placeholder="Enter a password"
+        />
       </p>
 
-      <p>
+      <!-- <p>
         <label for="color">Color:</label>
         <input type="color" id="color" />
       </p>
@@ -29,7 +38,7 @@
       <p>
         <label for="cheese">Do you want cheese?</label>
         <input type="checkbox" id="cheese" />
-      </p>
+      </p> -->
 
       <button>Submit</button>
     </form>
