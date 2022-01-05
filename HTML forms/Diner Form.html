@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diner Registration</title>
+  </head>
+  <body>
+    <h1>Book a Table!</h1>
+    <form action="">
+      <div>
+        <label for="first_name">First Name</label>
+        <input type="text" name="firstName" id="first_name" />
+        <label for="last_name">Last Name</label>
+        <input type="text" name="lastName" id="last_name" />
+      </div>
+      <p>Select a Cuisine:</p>
+      <section>
+        <div>
+          <input type="radio" id="indian" name="cuisine" value="indian" />
+          <label for="indian">Indian</label>
+        </div>
+        <div>
+          <input type="radio" id="chinese" name="cuisine" value="chinese" />
+          <label for="chinese">Chinese</label>
+        </div>
+        <div>
+          <input type="radio" id="mexican" name="cuisine" value="mexican" />
+          <label for="mexican">Mexican</label>
+        </div>
+      </section>
+      <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" />
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" />
+      </div>
+      <p>
+        <label for="payment">Select Form of Payment: </label>
+        <select name="payment" id="payment">
+          <option value="cash">Cash</option>
+          <option value="online">Online</option>
+          <option value="card">Card</option>
+        </select>
+      </p>
+      <button type="submit">Submit!</button>
+    </form>
+  </body>
+</html>

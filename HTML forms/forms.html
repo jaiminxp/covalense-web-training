@@ -9,20 +9,33 @@
   <body>
     <h1>Sign in form</h1>
 
-    <form action="/login">
+    <form action="/">
       <p>
         <label for="email">Email: </label>
         <input
+          required
           name="email"
-          type="text"
+          type="email"
           id="email"
           placeholder="Enter your email"
         />
+
+        <div>
+        <label for="phone">enter your phone number: </label>
+        <input type="tel" name="phone" id="phone" />
+      </div>
+      <div>
+        <label for="url">enter your website </label>
+        <input type="url" name="url" id="url" />
+      </div>
       </p>
 
       <p>
         <label for="password">Password: </label>
         <input
+          required
+          minlength="4"
+          maxlength="100"
           name="pass"
           type="password"
           id="password"
@@ -30,7 +43,7 @@
         />
       </p>
 
-      <!-- <p>
+      <p>
         <label for="color">Color:</label>
         <input type="color" id="color" />
       </p>
@@ -38,7 +51,17 @@
       <p>
         <label for="cheese">Do you want cheese?</label>
         <input type="checkbox" id="cheese" />
-      </p> -->
+      </p>
+
+      <label for="feedback">Tell us your feedback: (max 500 characters) </label
+      ><br />
+      <textarea
+        maxlength="500"
+        name="feedback"
+        id="feedback"
+        cols="30"
+        rows="10"
+      ></textarea>
 
       <button>Submit</button>
     </form>

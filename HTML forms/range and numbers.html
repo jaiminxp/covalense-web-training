@@ -7,14 +7,18 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Volume</h1>
+    <h1>sign up for facebook</h1>
+
     <form action="./">
-      <input
-        type="range"
-        name="volume"
-      />
-      <label for="num">set channel:</label>
-      <input type="number" name="num" id="num" />
+      <div>
+        <label for="volume">adjust volume: </label>
+        <input min="0" max="100" type="range" name="volume" id="volume" />
+      </div>
+      <div>
+        <p>users 13 and above only</p>
+        <label for="age">enter your age</label>
+        <input min="13" type="number" name="age" id="age" />
+      </div>
       <input type="submit" value="Submit" />
     </form>
   </body>
