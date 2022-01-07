@@ -1,0 +1,23 @@
+h1 {
+  background-color: chartreuse;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+p {
+  color: darkorchid;
+  text-align: right;
+  background-color: pink;
+}
+
+button {
+  color: red;
+  background-color: cyan;
+}
+
+span {
+  color: chocolate;
+  background-color: darkred;
+}
