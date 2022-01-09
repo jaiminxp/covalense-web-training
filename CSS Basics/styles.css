@@ -1,23 +1,7 @@
-h1 {
-  background-color: chartreuse;
+#title {
+  color: orange;
 }
 
-h2 {
-  color: #ffffff;
-}
-
-p {
-  color: darkorchid;
-  text-align: right;
-  background-color: pink;
-}
-
-button {
+#subtitle {
   color: red;
-  background-color: cyan;
-}
-
-span {
-  color: chocolate;
-  background-color: darkred;
 }

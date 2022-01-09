@@ -1,0 +1,17 @@
+.subtitle {
+  color: purple;
+  background-color: pink;
+}
+
+.large-text {
+  font-size: 40px;
+}
+
+.subtitle-important {
+  color: red;
+  background-color: orange;
+}
+
+.content {
+  text-decoration: underline;
+}
