@@ -6,40 +6,42 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="more_styles.css" />
   </head>
-
   <body>
     <nav>
-      <input type="text" placeholder="search" />
-      <button>Log In</button>
-      <button>Sign Up</button>
+      <form action="">
+        <input type="text" placeholder="search" />
+        <input type="password" name="" id="" />
+        <button>Log In</button>
+        <button type="submit">Sign Up</button>
+      </form>
     </nav>
     <main>
       <h1>Popular Posts</h1>
       <h2>reddit homepage</h2>
-      <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>4</li>
-        <li>5</li>
-      </ul>
-      <section>
+      <section class="post">
         <span>Posted by <a href="#213adas">/u/not_funny</a></span>
-        <button>+Vote</button>
-        <hr />
-      </section>
-      <section>
-        <span>Posted by <a href="#345adas">/u/gooner4lyfe</a></span>
         <h2>
-          Happy birthday to the strongest defender/bodyguard in the Prem!
-          <span>gunners</span>
+          Funny meme
+          <span class="tag">Humor</span>
         </h2>
         <button>+Vote</button>
         <hr />
       </section>
-      <section>
+      <section class="post">
+        <span>Posted by <a href="#345adas">/u/gooner4lyfe</a></span>
+        <h2>
+          Happy birthday to the strongest defender/bodyguard in the Prem!
+          <span class="tag">gunners</span>
+        </h2>
+        <button>+Vote</button>
+        <hr />
+      </section>
+      <section class="post">
         <span>Posted by <a href="#981adas">/u/dogfan</a></span>
-        <h2>This Corgi got some good stuff from the vet. <span>dogs</span></h2>
+        <h2>
+          This Corgi got some good stuff from the vet.
+          <span class="tag">dogs</span>
+        </h2>
         <button>+Vote</button>
         <hr />
       </section>
@@ -47,11 +49,10 @@
     <footer>
       <nav>
         <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
+          <li><a href="google.com">Home</a></li>
+          <li><a href="harwards.org">About me</a></li>
+          <li><a href="facebook.com">Contact</a></li>
+          <li><a href="modi.in">Privacy Policy</a></li>
         </ul>
       </nav>
     </footer>

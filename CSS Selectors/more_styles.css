@@ -1,7 +1,61 @@
-section h2 {
+/* element selector */
+body {
+  background-color: #f1faee;
+}
+
+/* class selector */
+.tag {
+  background-color: #e63946;
+  color: white;
+}
+
+/* descendent selector */
+section button {
+  background-color: #a8dadc;
+}
+
+/* selector list */
+h1,
+h2 {
   color: #457b9d;
 }
 
-section button {
-  background-color: #e63946;
+/* adjacent selector */
+span + h2 {
+  color: #2a9d8f;
+}
+
+/* descendent selector */
+.post button {
+  font-size: 30px;
+}
+
+/* direct child selector */
+section > span {
+  color: #e76f51;
+}
+
+input[type="password"] {
+  background-color: pink;
+  color: peru;
+}
+
+button[type="submit"] {
+  background-color: blueviolet;
+}
+
+a[href$=".com"] {
+  color: #e63946;
+}
+
+a[href$=".org"] {
+  color: greenyellow;
+}
+
+a[href$=".in"] {
+  color: orange;
+}
+
+a[href*="google"] {
+  font-size: 25px;
 }
