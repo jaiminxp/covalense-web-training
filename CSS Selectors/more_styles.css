@@ -14,15 +14,14 @@ section button {
   background-color: #a8dadc;
 }
 
-/* selector list */
-h1,
-h2 {
-  color: #457b9d;
-}
-
 /* adjacent selector */
 span + h2 {
   color: #2a9d8f;
+}
+
+span + h2::first-letter {
+  color: green;
+  font-size: 70px;
 }
 
 /* descendent selector */
@@ -58,4 +57,57 @@ a[href$=".in"] {
 
 a[href*="google"] {
   font-size: 25px;
+}
+
+button:hover {
+  font-size: 32px;
+  background-color: #6f8e8f;
+}
+
+a:hover {
+  color: #e63946;
+}
+
+input[type="checkbox"] + label {
+  background-color: blueviolet;
+  color: pink;
+}
+
+input[type="checkbox"]:checked + label {
+  background-color: red;
+  color: pink;
+}
+
+section:nth-of-type(2n) {
+  background-color: lightgreen;
+}
+
+p::first-line {
+  color: #e76f51;
+  font-size: 28px;
+}
+
+p::first-letter {
+  color: purple;
+  font-size: 40px;
+}
+
+p::selection {
+  color: brown;
+  text-decoration: underline;
+  background-color: indianred;
+}
+
+/* selector list */
+h1,
+h2 {
+  color: #457b9d;
+}
+
+h1 {
+  color: red;
+}
+
+h1 {
+  color: green;
 }
