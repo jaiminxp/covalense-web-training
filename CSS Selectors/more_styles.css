@@ -1,3 +1,16 @@
+#special {
+  background-color: darkmagenta;
+}
+
+.vote {
+  background-color: chartreuse !important;
+}
+
+section button {
+  background-color: #a8dadc;
+  font-weight: bold;
+}
+
 /* element selector */
 body {
   background-color: #f1faee;
@@ -10,9 +23,6 @@ body {
 }
 
 /* descendent selector */
-section button {
-  background-color: #a8dadc;
-}
 
 /* adjacent selector */
 span + h2 {
