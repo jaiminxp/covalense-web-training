@@ -1,0 +1,30 @@
+main {
+  font-size: 30px;
+}
+
+p {
+  font-size: 2em;
+  padding: 1em;
+  background-color: blueviolet;
+}
+
+button {
+  background-color: #3347ff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-right: 15px;
+  margin-bottom: 20px;
+
+  padding: 1em 1.7em;
+  font-size: 14px;
+  border-radius: 1.5em;
+}
+
+button:nth-of-type(2) {
+  font-size: 100px;
+}
+
+ul > li {
+  font-size: 2em;
+}

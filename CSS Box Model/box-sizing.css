@@ -1,0 +1,14 @@
+div {
+  height: 300px;
+  width: 300px;
+  background-color: magenta;
+}
+
+#div1 {
+  border: 5px solid black;
+}
+
+#div2 {
+  border: 10px solid green;
+  box-sizing: border-box;
+}
