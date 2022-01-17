@@ -1,0 +1,6 @@
+div {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  background: linear-gradient(to left top, cyan, rgb(129, 0, 129));
+}

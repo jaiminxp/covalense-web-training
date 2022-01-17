@@ -1,0 +1,11 @@
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+}
+
+nav {
+  margin-left: calc(10% / 6);
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 30%;
+}
