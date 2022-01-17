@@ -1,0 +1,13 @@
+span {
+  background-color: chocolate;
+  border: 1px solid black;
+  padding: 40px;
+
+  display: inline-block;
+}
+
+h1 {
+  background-color: cyan;
+  border: 1px solid black;
+  padding: 40px;
+}
