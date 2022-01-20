@@ -8,11 +8,12 @@ h1 {
 
 #container {
   background-color: #003049;
-  width: 90%;
+  width: 100%;
   height: 500px;
   margin: 0 auto;
   border: 5px solid #003049;
   display: flex;
+  flex-direction: row;
 }
 
 #container div {
@@ -20,22 +21,19 @@ h1 {
   height: 200px;
 }
 
-div:nth-of-type(1) {
-  background-color: #80ffdb;
+main {
+  width: 80%;
+  height: 500px;
+  margin: 1em auto;
+  display: flex;
 }
 
-div:nth-of-type(2) {
-  background-color: #64dfdf;
+.maincontent {
+  background-color: blueviolet;
+  flex: 800px 1 1;
 }
 
-div:nth-of-type(3) {
-  background-color: #48bfe3;
-}
-
-div:nth-of-type(4) {
-  background-color: #5390d9;
-}
-
-div:nth-of-type(5) {
-  background-color: #6930c3;
+.sidebar {
+  background-color: magenta;
+  flex: 200px 1 5;
 }

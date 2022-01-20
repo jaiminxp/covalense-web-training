@@ -1,6 +1,6 @@
 img {
   width: 30%;
-  margin: calc(10% / 6);
+  margin: calc(10% / 6) 0px;
 }
 
 nav {
@@ -8,4 +8,11 @@ nav {
   font-family: "Montserrat";
   font-weight: 700;
   width: 30%;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
