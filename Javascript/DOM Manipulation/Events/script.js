@@ -3,6 +3,7 @@ const btn3 = document.querySelector("#v3");
 const btn4 = document.querySelector("#v4");
 const input = document.querySelector("input");
 const form = document.querySelector("form");
+const h1 = document.querySelector("h1");
 
 // btn2.onclick = function () {
 //   console.log("you clicked v2 button");
@@ -34,7 +35,7 @@ const form = document.querySelector("form");
 //   }
 // });
 
-const ul = document.createElement("ul");
+const ul = document.querySelector("ul");
 
 form.addEventListener("submit", function (event) {
   event.preventDefault();
@@ -45,4 +46,14 @@ form.addEventListener("submit", function (event) {
   input.value = "";
 });
 
-document.body.append(ul);
+// document.body.append(ul);
+
+const lis = document.querySelectorAll("li");
+
+// input.addEventListener("change", function () {
+//   console.log("input changed");
+// });
+
+// input.addEventListener("input", function (event) {
+//   h1.innerText = input.value;
+// });
