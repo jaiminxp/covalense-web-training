@@ -1,0 +1,25 @@
+// SQL - a combination of following
+
+- Data Definition Language - DDL
+- Data Modification Language - DML
+- Data Query Language - DQL
+- Data control Language - DCL
+
+//
+
+C R U D
+C - Create
+R - Read
+U - Update
+D - Delete
+
+-- backend system
+facebook
+
+// Data types
+INT - whole number
+DECIMAL (5,3) - fractional data, 10.502
+VARCHAR(5) - string - 'jayes'
+BLOB - binary large object - images, files, videos
+DATE - DD-MM-YYYY
+TIMESTAMP - DD-MM-YYYY:HH-MM-SS
